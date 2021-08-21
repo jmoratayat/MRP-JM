@@ -311,10 +311,10 @@ namespace VISTAMRP
 
         private void pedidoDetalleToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (seguridad.PermisosAcceso("3309", txtUsuario.Text) == 1)
+            if (seguridad.PermisosAcceso("3308", txtUsuario.Text) == 1)
             {
                 bit.user(txtUsuario.Text);
-                bit.insert("Ingreso Pedido Detalle", 3309);
+                bit.insert("Ingreso Pedido Detalle", 3308);
                 frmPedidoDetalle perfil = new frmPedidoDetalle(txtUsuario.Text);
                 perfil.MdiParent = this;
                 perfil.Show();
@@ -329,10 +329,10 @@ namespace VISTAMRP
 
         private void generarOrdenDeCompraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (seguridad.PermisosAcceso("3310", txtUsuario.Text) == 1)
+            if (seguridad.PermisosAcceso("3308", txtUsuario.Text) == 1)
             {
                 bit.user(txtUsuario.Text);
-                bit.insert("Ingreso Generar Orden de Compra", 3310);
+                bit.insert("Ingreso Generar Orden de Compra", 3308);
                 frmOrdenDeCompra perfil = new frmOrdenDeCompra(txtUsuario.Text);
                 perfil.MdiParent = this;
                 perfil.Show();
@@ -347,10 +347,10 @@ namespace VISTAMRP
 
         private void procesoControlDeProducciónToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (seguridad.PermisosAcceso("3313", txtUsuario.Text) == 1)
+            if (seguridad.PermisosAcceso("3308", txtUsuario.Text) == 1)
             {
                 bit.user(txtUsuario.Text);
-                bit.insert("Ingreso a Produccion", 3313);
+                bit.insert("Ingreso a Produccion", 3308);
                 frmProduccion perfil = new frmProduccion(txtUsuario.Text);
                 perfil.MdiParent = this;
                 perfil.Show();

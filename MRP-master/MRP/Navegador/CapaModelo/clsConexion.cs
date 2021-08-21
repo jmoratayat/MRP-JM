@@ -12,7 +12,7 @@ namespace CapaModeloNavegador
         public OdbcConnection conexion()
         {
             //creacion de la conexion via ODBC
-            OdbcConnection conn = new OdbcConnection("Dsn=sgp");
+            OdbcConnection conn = new OdbcConnection("Dsn=clc_erp");
             try
             {
                 conn.Open();

@@ -58,14 +58,14 @@
             this.asignacionDeAplicacionAPerfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produccionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpMenu = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.gestorDeReportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignarReporteAMóduloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignarReporteAAplicaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verReportesDeMóduloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpMenu = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -292,6 +292,7 @@
             this.asignarReporteAMóduloToolStripMenuItem,
             this.asignarReporteAAplicaciónToolStripMenuItem,
             this.verReportesDeMóduloToolStripMenuItem});
+            this.reportesToolStripMenuItem.Enabled = false;
             this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
             this.reportesToolStripMenuItem.Size = new System.Drawing.Size(83, 21);
             this.reportesToolStripMenuItem.Text = "Reportes";
@@ -302,30 +303,6 @@
             this.produccionToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
             this.produccionToolStripMenuItem.Text = "Reporte Ordenes de Produccion";
             this.produccionToolStripMenuItem.Click += new System.EventHandler(this.produccionToolStripMenuItem_Click);
-            // 
-            // helpMenu
-            // 
-            this.helpMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripSeparator8});
-            this.helpMenu.Name = "helpMenu";
-            this.helpMenu.Size = new System.Drawing.Size(64, 21);
-            this.helpMenu.Text = "Ay&uda";
-            // 
-            // toolStripSeparator8
-            // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(57, 6);
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.txtUsuario.Enabled = false;
-            this.txtUsuario.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(892, 0);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(94, 26);
-            this.txtUsuario.TabIndex = 4;
-            this.txtUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gestorDeReportesToolStripMenuItem
             // 
@@ -354,6 +331,30 @@
             this.verReportesDeMóduloToolStripMenuItem.Size = new System.Drawing.Size(304, 22);
             this.verReportesDeMóduloToolStripMenuItem.Text = "Ver Reportes de Módulo";
             this.verReportesDeMóduloToolStripMenuItem.Click += new System.EventHandler(this.verReportesDeMóduloToolStripMenuItem_Click);
+            // 
+            // helpMenu
+            // 
+            this.helpMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripSeparator8});
+            this.helpMenu.Name = "helpMenu";
+            this.helpMenu.Size = new System.Drawing.Size(64, 21);
+            this.helpMenu.Text = "Ay&uda";
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(57, 6);
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.txtUsuario.Enabled = false;
+            this.txtUsuario.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(892, 0);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(94, 26);
+            this.txtUsuario.TabIndex = 4;
+            this.txtUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frmMDI
             // 
